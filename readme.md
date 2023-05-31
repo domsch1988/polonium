@@ -11,7 +11,7 @@ The descendant of [autotile](https://github.com/zeroxoneafour/kwin-autotile).
 
 ## features
 * Works in Wayland Plasma 5.27 and up
-* Actual tiling backend using binary trees and decent enough code where you can mod in your own
+* Actual tiling backend using binary trees and decent enough code where you can mod in your ownjj
 * Edit tile sizes with the integrated KWin GUI
 * Move and tile windows with your mouse and keyboard
 * Set layouts independently of desktop
@@ -23,6 +23,10 @@ The descendant of [autotile](https://github.com/zeroxoneafour/kwin-autotile).
 
 ## building
 Requires `tsc`, `npm`, and `kpackagetool5`
+
+### Dependencies
+#### Arch
+`pacman -S kpackage npm`
 
 Commands -
 * Build/Install/Clean - `make`
