@@ -26,7 +26,9 @@ Requires `tsc`, `npm`, and `kpackagetool5`
 
 ### Dependencies
 #### Arch
-`pacman -S kpackage npm`
+```
+pacman -S kpackage npm
+```
 
 Commands -
 * Build/Install/Clean - `make`
